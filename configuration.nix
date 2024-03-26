@@ -26,6 +26,7 @@
     vim
     jq
     git
+    gnumake42 # GNU make 4.2.1
 
     # dev tools
     asdf-vm # version manager
