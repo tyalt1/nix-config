@@ -15,6 +15,8 @@
 
   time.timeZone = "America/New_York";
 
+  nixpkgs.config.allowUnfree = true;
+
   environment.systemPackages = with pkgs; [
     # cli utils
     wget
