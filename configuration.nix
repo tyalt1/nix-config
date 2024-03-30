@@ -39,4 +39,7 @@
     spotify
   ];
 
+  environment.variables = {
+    EDITOR = "vim";
+  };
 }
